@@ -3,6 +3,9 @@ const db = require("../models");
 // Defining methods for the productsController
 module.exports = {
   findAll: function(req, res) {
+    
+    req.query.user_id = req.session.user._id
+    console.log(req.session.user,"query:",req.query)
     db.Product
       .find(req.query)
       .sort({ date: -1 })
@@ -16,6 +19,7 @@ module.exports = {
       .catch(err => res.status(422).json(err));
   },
   create: function(req, res) {
+    req.body.user_id = req.session.user._id
     db.Product
       .create(req.body)
       .then(dbModel => res.json(dbModel))
