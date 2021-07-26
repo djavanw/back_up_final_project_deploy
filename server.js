@@ -30,5 +30,5 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/goodfoods_db",
   .catch((error) => console.log(error, "Problem Connecting to MongoDB Atlas"));
 
 app.listen(PORT, function() {
-  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
+  console.log(`🌎  ==> API Server now listening on PORT Number ${PORT}!`);
 });
