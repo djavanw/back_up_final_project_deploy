@@ -10,7 +10,7 @@
 ***
   ## Table of Contents:
   1.  [Description](#description)
-  2.  [Demonstration](#demonstration)
+  2.  [Heroku](#heroku)
   3.  [Installation](#installation)
   4.  [Screenshots](#screenshots)
   5.  [Technologies](#technologies)
@@ -21,8 +21,11 @@
   10.  [Questions](#questions)
 
 ***
-  ## Demonstration:
-  [Deployed website link]()
+  ## Heroku:
+  [Deployed Active Heroku Link](https://thawing-ravine-25396.herokuapp.com/login)
+
+  ## Link to Original Github Repo with Commits
+  https://github.com/bmowrey729/Good-Food-For-You
 
 ***
   ## Installation:
@@ -98,4 +101,4 @@
     - https://github.com/LD-Jenkins
     - https://github.com/djavanw
  
-  - If there are any questions, please contact Leighton at leightonjenkins84@gmail.com.
+  
